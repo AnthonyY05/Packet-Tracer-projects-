@@ -1,4 +1,7 @@
 # Small Office Network – Cisco Packet Tracer
+## Network Topology
+
+![Small Office Network Topology](topology%20SON.png)
 
 ## Overview
 
