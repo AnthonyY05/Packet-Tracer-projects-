@@ -47,7 +47,7 @@ ping 192.168.20.10
 
 The successful ping confirmed that the network was functioning correctly before troubleshooting began.
 
-![Baseline Working Network](00-baseline-working.png)
+![Baseline Working Network](00-baseline-working..png)
 
 ---
 
