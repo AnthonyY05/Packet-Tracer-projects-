@@ -47,7 +47,7 @@ ping 192.168.20.10
 
 The successful ping confirmed that the network was functioning correctly before troubleshooting began.
 
-![Baseline Working Network](00-baseline-working..png)
+![Baseline Working Network](screenshots/00-baseline-working..png)
 
 ---
 
@@ -76,7 +76,7 @@ ping 192.168.20.1
 
 The ping failed.
 
-![Incorrect IP Failed Ping](01-wrong-ip-failed-ping.png)
+![Incorrect IP Failed Ping](screenshots/01-wrong-ip-failed-ping.png)
 
 I then checked the IP configuration using:
 
@@ -96,7 +96,7 @@ Instead of:
 192.168.20.10
 ```
 
-![Incorrect IP Identified](02-wrong-ip-identified.png)
+![Incorrect IP Identified](screenshots/02-wrong-ip-identified.png)
 
 ## Resolution
 
@@ -114,7 +114,7 @@ ping 192.168.20.1
 
 Connectivity was successfully restored.
 
-![Incorrect IP Fixed](03-wrong-ip-fixed.png)
+![Incorrect IP Fixed](screenshots/03-wrong-ip-fixed.png)
 
 ---
 
@@ -144,7 +144,7 @@ ping 192.168.20.10
 
 The ping failed.
 
-![Wrong Gateway Failed Ping](04-wrong-gateway-failed-ping.png)
+![Wrong Gateway Failed Ping](screenshots/04-wrong-gateway-failed-ping.png)
 
 I then checked the PC configuration using:
 
@@ -154,7 +154,7 @@ ipconfig
 
 This showed that the default gateway was incorrect.
 
-![Wrong Gateway Identified](05-wrong-gateway-identified.png)
+![Wrong Gateway Identified](screenshots/05-wrong-gateway-identified.png)
 
 ## Resolution
 
@@ -172,7 +172,7 @@ ping 192.168.20.10
 
 Connectivity between the two networks was restored.
 
-![Wrong Gateway Fixed](06-wrong-gateway-fixed.png)
+![Wrong Gateway Fixed](screenshots/06-wrong-gateway-fixed.png)
 
 ---
 
@@ -190,7 +190,7 @@ show ip interface brief
 
 The GigabitEthernet0/1 interface showed as administratively down.
 
-![Router Interface Down](07-router-interface-down.png)
+![Router Interface Down](screenshots/07-router-interface-down.png)
 
 I then tested communication from PC1 to PC2:
 
@@ -200,7 +200,7 @@ ping 192.168.20.10
 
 The ping failed.
 
-![Interface Down Failed Ping](08-interface-down-failed-ping.png)
+![Interface Down Failed Ping](screenshots/08-interface-down-failed-ping.png)
 
 ## Resolution
 
@@ -222,7 +222,7 @@ show ip interface brief
 
 The interface returned to an `up/up` state.
 
-![Router Interface Restored](09-router-interface-restored.png)
+![Router Interface Restored](screenshots/09-router-interface-restored.png)
 
 I then tested end-to-end connectivity again:
 
@@ -232,7 +232,7 @@ ping 192.168.20.10
 
 The ping was successful.
 
-![Interface Fixed Ping](10-interface-fixed-ping.png)
+![Interface Fixed Ping](screenshots/10-interface-fixed-ping1.png)
 
 ---
 
@@ -264,7 +264,7 @@ ping 192.168.20.10
 
 The ping failed.
 
-![Incorrect Subnet Mask Failed Ping](12-subnet-mask-failed-ping.png)
+![Incorrect Subnet Mask Failed Ping](screenshots/12-subnet-mask-failed-ping.png)
 
 I then checked the IP configuration using:
 
@@ -278,7 +278,7 @@ This showed that PC1 was configured with the incorrect subnet mask:
 255.255.0.0
 ```
 
-![Incorrect Subnet Mask Identified](11-wrong-subnet-mask.png)
+![Incorrect Subnet Mask Identified](screenshots/11-wrong-subnet-mask..png)
 
 ## Resolution
 
@@ -296,7 +296,7 @@ ping 192.168.20.10
 
 Connectivity was successfully restored.
 
-![Subnet Mask Fixed](13-subnet-mask-fixed.png)
+![Subnet Mask Fixed](screenshots/13-subnet-mask-fixed.png)
 
 ---
 
@@ -335,7 +335,7 @@ Default Gateway: 192.168.20.1
 
 A final end-to-end connectivity test confirmed that the network was functioning correctly.
 
-![Final Network Working](14-final-network-working.png)
+![Final Network Working](screenshots/14-final-network-working.png)
 
 ---
 
