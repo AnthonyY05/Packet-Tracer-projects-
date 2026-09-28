@@ -18,7 +18,7 @@ I then configured router-on-a-stick to enable communication between the VLANs us
 
 ## Network Topology
 
-![Office VLAN Topology](topology%VLAN.png)
+![Office VLAN Topology](topology%20VLAN.png)
 
 ---
 
