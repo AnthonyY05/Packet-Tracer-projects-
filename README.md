@@ -110,6 +110,37 @@ A segmented office network using separate VLANs for Admin, Sales and IT departme
 
 ---
 
+## DNS and Web Server Lab
+
+A simple client server networking project demonstrating DNS name resolution and basic web services in Cisco Packet Tracer.
+
+### Key Skills
+
+- DNS configuration
+- DNS A records
+- HTTP services
+- IPv4 addressing
+- Client server networking
+- Connectivity testing
+- Name resolution
+- Basic troubleshooting
+
+### Project Summary
+
+A DNS and web server was configured at `192.168.1.10`.
+
+Client PCs were configured to use the server for DNS and successfully accessed the hosted website using both:
+
+`192.168.1.10`
+
+and:
+
+`www.company.local`
+
+The project also included command line testing to verify that the hostname correctly resolved to the server IP address.
+
+[View DNS and Web Server Lab](DNS-Web-Server-Lab/)
+
 ## Portfolio Goal
 
 This portfolio documents my practical development in networking and IT infrastructure.
