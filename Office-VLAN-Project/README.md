@@ -339,7 +339,7 @@ The project demonstrates how network segmentation can be used to create a more s
 The complete Cisco Packet Tracer project is included in this repository.
 
 ```text
-OfficeVLANProject.pkt
+OfficeVLAN.pkt
 ```
 
 Cisco Packet Tracer is required to open the `.pkt` file.
