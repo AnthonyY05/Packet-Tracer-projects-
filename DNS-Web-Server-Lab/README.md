@@ -12,7 +12,7 @@ The project demonstrates basic networking, DNS name resolution, HTTP services an
 
 ## Network Topology
 
-![DNS Web Server Topology](topology.png)
+![DNS Web Server Topology](network-topology.png)
 
 ---
 
