@@ -141,6 +141,37 @@ The project also included command line testing to verify that the hostname corre
 
 [View DNS and Web Server Lab](DNS-Web-Server-Lab/)
 
+## DHCP Troubleshooting Lab
+
+A practical Cisco Packet Tracer lab focused on configuring and troubleshooting DHCP within a small client server network.
+
+### Key Skills
+
+- DHCP configuration
+- DHCP pools
+- IPv4 addressing
+- Subnetting
+- Automatic IP assignment
+- Client server networking
+- Connectivity testing
+- Fault isolation
+- Network troubleshooting
+
+### Project Summary
+
+A DHCP server was configured to automatically provide IP addresses and network settings to client PCs on the `192.168.50.0/24` network.
+
+The lab included troubleshooting several common DHCP problems, including:
+
+- DHCP service disabled
+- Clients receiving addresses from the wrong network
+- Incorrect subnet mask configuration
+- DHCP pool exhaustion
+
+Tools such as `ipconfig` and `ping` were used to identify faults, verify client configuration and confirm connectivity after each resolution.
+
+[View DHCP Troubleshooting Lab](DHCP-Troubleshooting-Lab/)
+
 ## Portfolio Goal
 
 This portfolio documents my practical development in networking and IT infrastructure.
