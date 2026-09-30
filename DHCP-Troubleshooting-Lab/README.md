@@ -12,7 +12,7 @@ The lab focuses on DHCP configuration, IP addressing, client connectivity and st
 
 ## Network Topology
 
-![DHCP Troubleshooting Topology](topology.png)
+![DHCP Troubleshooting Topology](dhcp-topology.png)
 
 ### Network Devices
 
