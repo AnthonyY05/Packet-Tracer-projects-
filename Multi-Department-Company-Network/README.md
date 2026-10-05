@@ -12,7 +12,7 @@ I configured VLANs, 802.1Q trunking, router-on-a-stick, DHCP relay, DNS, HTTP se
 
 ## Network Topology
 
-![Company Network Topology](topology.png)
+![Company Network Topology](company-topology.png)
 
 ---
 
