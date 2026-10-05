@@ -172,6 +172,37 @@ Tools such as `ipconfig` and `ping` were used to identify faults, verify client 
 
 [View DHCP Troubleshooting Lab](DHCP-Troubleshooting-Lab/)
 
+
+## Multi Department Company Network
+
+A larger Cisco Packet Tracer project combining VLANs, routing and network services within a simulated business environment.
+
+### Key Skills
+
+- VLAN configuration
+- Network segmentation
+- 802.1Q trunking
+- Router-on-a-stick
+- Inter-VLAN routing
+- DHCP and DHCP relay
+- DNS
+- HTTP services
+- Access Control Lists
+- IPv4 addressing
+- Cisco IOS
+- Network troubleshooting
+
+### Project Summary
+
+A company network was designed for Admin, Sales, HR, IT and Server departments using separate VLANs and subnets.
+
+A central server provided DHCP, DNS and internal web services, while router subinterfaces enabled inter-VLAN communication.
+
+DHCP relay was configured so clients in different VLANs could obtain addresses from the central DHCP server.
+
+An ACL was also introduced to prevent Sales users from directly accessing the HR network while maintaining access to shared company services.
+
+[View Multi Department Company Network](Multi-Department-Company-Network/)
 ## Portfolio Goal
 
 This portfolio documents my practical development in networking and IT infrastructure.
